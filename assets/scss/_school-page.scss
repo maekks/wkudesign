@@ -1,0 +1,62 @@
+/*-----------------------------------------------------------------------------
+
+SCHOOL PAGE
+
+-----------------------------------------------------------------------------*/
+.school-page{
+    position: relative;
+    height: 1400px;
+    background-color: #fff;
+}
+
+.school-page h1{
+    display: block;
+    position: relative;
+    font-family: 'myoswaldregular', $font-stack;
+    font-weight: normal;
+    font-size: 56px;
+    color: #FFD84F;
+    float: left;
+    margin-top: 70px;
+}
+
+.intro-div{
+    position: relative;
+    margin-top: 40px;
+    clear: both;
+}
+
+.halftone-img{
+    float: left;
+    height: 1051px;
+    width: 393px;
+    background: url("../assets/imgs/halftone.png") no-repeat;
+}
+
+.intro-text{
+    display: block;
+    float: left;
+    width: 500px;
+    height: auto;
+    margin-left: 150px;
+    color: #000;
+    font-weight: 300;
+    font-size: 16px;
+    h2{
+        font-weight: 400;
+        font-size: 30px;
+    }
+    p{
+        display: block;
+        margin-top: 15px;
+        height: auto;
+    }
+}
+
+.logo{
+    position: relative;
+    height: 46px;
+    width: 307px;
+    background: url("../assets/imgs/LOGO.png") no-repeat;
+    margin-bottom: 29px;
+}
