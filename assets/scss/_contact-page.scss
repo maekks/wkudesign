@@ -1,16 +1,16 @@
 .contact-page{
     width: 100%;
-    height: 776px;
+    height: $page-height;
     background-color: #fff;
-    background: url("../assets/imgs/contact-bg.png") no-repeat;
-    background-size: 100% 776px;
+    background: url("../assets/imgs/contact-bg.jpg") no-repeat;
+    background-size: cover;
     overflow: hidden;
 }
 
 #allmap{
     float: left;
-    margin-top: 80px;
-    margin-left: 100px;
-    width: 600px;
-    height: 600px;
+    margin-top: 5.7%;
+    margin-left: 7%;
+    width: 80%;
+    height: 50%;
 }

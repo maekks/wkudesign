@@ -26,14 +26,14 @@
             </nav>
             <div class="container">
                 <div class="movie-page">
-                    <video src="assets/videos/movie.mp4" muted autoplay loop  class="movie"></video>
+                    <video src="assets/videos/movie.mp4" muted autoplay loop poster="assets/imgs/movie-alt.jpg" class="movie"></video>
                     <div class="movie-cover"></div>
                     <div class="intro-panel"></div>
                     <div class="footer-dim"></div>
                 </div>
                 <div class="school-page"  id="school-page">
                     <h1 class="en">THE SCHOOL</h1>
-                    <div class="intro-div clearfix">
+                    <div class="intro-div">
                         <div class="halftone-img"></div>
                         <div class="intro-text">
                             <div class="logo"></div>
@@ -107,10 +107,16 @@
                 <div class="gallery-page" id="gallery-page">
                     <div class="gallery-items clearfix">
                         <div class="row">
-                            <div class="gallery-item">
-                                <img src="assets/imgs/gallery-page/pic1.png" alt="Drawing Art Girl" />
-                                <h3>Willam Johns</h3>
-                                <p>young girl concentrates on her drawing.<br>Class of 2015</p>
+                            <div class="gallery-item gallery-title">
+                                <h1>GALLERY</h1>
+                                <p>
+                                    The more technique you have,<br>
+                                    the less you have to worry about it.<br>
+                                    The more technique there is,<br>
+                                    the less there is.<br>
+                                    <br>
+                                    <span>Pablo Picasso</span>
+                                </p>
                             </div>
                             <div class="gallery-item">
                                 <img src="assets/imgs/gallery-page/pic2.png" alt="Drawing Art Girl" />
@@ -129,16 +135,10 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="gallery-item gallery-title">
-                                <h1>GALLERY</h1>
-                                <p>
-                                    The more technique you have,<br>
-                                    the less you have to worry about it.<br>
-                                    The more technique there is,<br>
-                                    the less there is.<br>
-                                    <br>
-                                    <span>Pablo Picasso</span>
-                                </p>
+                            <div class="gallery-item">
+                                <img src="assets/imgs/gallery-page/pic1.png" alt="Drawing Art Girl" />
+                                <h3>Willam Johns</h3>
+                                <p>young girl concentrates on her drawing.<br>Class of 2015</p>
                             </div>
                             <div class="gallery-item">
                                 <img src="assets/imgs/gallery-page/pic5.png" alt="Drawing Art Girl" />
@@ -253,7 +253,6 @@
 		var map = new BMap.Map("allmap");
 		var point = new BMap.Point(120.657451,27.925595);
 		map.centerAndZoom(point,12);
-        //创建小狐狸
         var myIcon = new BMap.Icon("assets/imgs/wkulogo.jpg", new BMap.Size(30,30));
         var marker2 = new BMap.Marker(point,{icon:myIcon});
         map.addOverlay(marker2);

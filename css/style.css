@@ -237,14 +237,15 @@ html, body {
 html {
   font-family: -apple-system, mysanfranciscodisplayregular, "Myriad Set Pro", "Helvetica Neue", Helvetica, Arial, "Source Han Sans CN", "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+  font-size: 14px; }
 
 body {
   color: #333;
-  background-color: #000;
-  font-size: 14px;
-  line-height: 1.5;
-  letter-spacing: 0em; }
+  background-color: #fff;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  min-height: 100%; }
 
 a {
   color: #0070c9;
@@ -358,7 +359,7 @@ SCHOOL PAGE
 -----------------------------------------------------------------------------*/
 .school-page {
   position: relative;
-  height: 1400px;
+  height: 1050px;
   background-color: #fff; }
 
 .school-page h1 {
@@ -366,34 +367,37 @@ SCHOOL PAGE
   position: relative;
   font-family: "myoswaldregular", -apple-system, mysanfranciscodisplayregular, "Myriad Set Pro", "Helvetica Neue", Helvetica, Arial, "Source Han Sans CN", "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
   font-weight: normal;
-  font-size: 56px;
+  font-size: 4rem;
   color: #FFD84F;
   float: left;
-  margin-top: 70px; }
+  margin-top: 5%; }
 
 .intro-div {
   position: relative;
+  height: 85%;
   margin-top: 40px;
   clear: both; }
 
 .halftone-img {
   float: left;
-  height: 1051px;
-  width: 393px;
-  background: url("../assets/imgs/halftone.png") no-repeat; }
+  height: 85%;
+  width: 20%;
+  background: url("../assets/imgs/halftone.jpg") no-repeat;
+  background-size: cover; }
 
 .intro-text {
   display: block;
+  overflow: scroll;
   float: left;
-  width: 500px;
-  height: auto;
-  margin-left: 150px;
+  max-width: 60%;
+  max-height: 90%;
+  margin-left: 10%;
   color: #000;
   font-weight: 300;
-  font-size: 16px; }
+  font-size: 1.143rem; }
   .intro-text h2 {
     font-weight: 400;
-    font-size: 30px; }
+    font-size: 2.143rem; }
   .intro-text p {
     display: block;
     margin-top: 15px;
@@ -402,8 +406,9 @@ SCHOOL PAGE
 .logo {
   position: relative;
   height: 46px;
-  width: 307px;
+  min-width: 50%;
   background: url("../assets/imgs/LOGO.png") no-repeat;
+  background-size: contain;
   margin-bottom: 29px; }
 
 .gallery-page {
@@ -411,12 +416,12 @@ SCHOOL PAGE
   width: 100%;
   height: 700px;
   background: #fff;
-  overflow: hidden; }
+  overflow: scroll; }
 
 .gallery-items {
   width: auto;
   height: auto;
-  margin: 86px auto;
+  margin: 6% auto;
   text-align: center; }
 
 .row {
@@ -431,7 +436,7 @@ SCHOOL PAGE
   width: 234px;
   overflow: hidden;
   background-color: #f1c40f;
-  margin: 19px 21px; }
+  margin: 1.357% 21px; }
   .gallery-item img {
     position: absolute;
     left: 0;
@@ -447,7 +452,7 @@ SCHOOL PAGE
     left: -80px;
     -webkit-transform: rotate(-90deg);
     font-family: myoswaldregular, -apple-system, mysanfranciscodisplayregular, "Myriad Set Pro", "Helvetica Neue", Helvetica, Arial, "Source Han Sans CN", "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
-    font-size: 55px;
+    font-size: 3.929rem;
     font-weight: 500;
     margin: 0; }
   .gallery-title p {
@@ -456,7 +461,7 @@ SCHOOL PAGE
     text-align: left;
     font-family: mysanfranciscodisplaylight, -apple-system, mysanfranciscodisplayregular, "Myriad Set Pro", "Helvetica Neue", Helvetica, Arial, "Source Han Sans CN", "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
     font-weight: 100;
-    font-size: 16px;
+    font-size: 1.143rem;
     width: 155px; }
     .gallery-title p span {
       font-family: mysanfranciscodisplaymedium, -apple-system, mysanfranciscodisplayregular, "Myriad Set Pro", "Helvetica Neue", Helvetica, Arial, "Source Han Sans CN", "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
@@ -467,47 +472,25 @@ SCHOOL PAGE
   position: relative;
   width: 100%;
   height: 700px;
-  background: url("../assets/imgs/event-bg.png") no-repeat;
+  background: url("../assets/imgs/event-bg.jpg") no-repeat;
   background-size: cover;
+  background-position: center center;
   text-align: center;
   overflow: hidden; }
   .events-page h1 {
     font-family: "myoswaldlight", -apple-system, mysanfranciscodisplayregular, "Myriad Set Pro", "Helvetica Neue", Helvetica, Arial, "Source Han Sans CN", "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
-    font-size: 72px;
+    font-size: 5.143rem;
     color: #fff;
     width: auto;
-    margin-top: 70px;
+    margin: 1em 0;
     vertical-align: bottom; }
 
 .events-box {
   position: relative;
-  height: 304px;
-  width: 800px;
+  height: 43.43%;
+  width: 56%;
   margin: 0 auto;
-  background-color: #fff; }
-
-.event-item {
-  display: block;
-  width: 200px;
-  height: 100%;
-  float: left; }
-  .event-item .event-img {
-    height: 200px;
-    width: 200px;
-    overflow: hidden; }
-  .event-item .event-intro {
-    display: block;
-    width: 160px;
-    margin: 25px auto 0 auto;
-    color: #fff;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0;
-    text-align: left; }
-
-.event-date {
-  font-weight: lighter; }
+  overflow: scroll; }
 
 .event-1 {
   background-color: #01669E; }
@@ -529,20 +512,45 @@ SCHOOL PAGE
   .event-4 .event-img {
     background: url("../assets/imgs/meeting.png") no-repeat; }
 
+.event-item {
+  display: block;
+  width: 200px;
+  height: 100%;
+  float: left; }
+  .event-item .event-img {
+    height: 65.79%;
+    width: 100%;
+    overflow: hidden;
+    background-position: center center;
+    background-size: 101% 101%; }
+  .event-item .event-intro {
+    display: block;
+    width: 80%;
+    margin: 12.4% auto 0 auto;
+    color: #fff;
+    font-weight: normal;
+    font-size: 0.857rem;
+    line-height: 1rem;
+    letter-spacing: 0;
+    text-align: left; }
+
+.event-date {
+  font-weight: lighter; }
+
 .contact-page {
   width: 100%;
-  height: 776px;
+  height: 700px;
   background-color: #fff;
-  background: url("../assets/imgs/contact-bg.png") no-repeat;
-  background-size: 100% 776px;
+  background: url("../assets/imgs/contact-bg.jpg") no-repeat;
+  background-size: cover;
   overflow: hidden; }
 
 #allmap {
   float: left;
-  margin-top: 80px;
-  margin-left: 100px;
-  width: 600px;
-  height: 600px; }
+  margin-top: 5.7%;
+  margin-left: 7%;
+  width: 80%;
+  height: 50%; }
 
 /*-----------------------------------------------------------------------------
 
@@ -648,13 +656,13 @@ MENU OBJECT
 
 .menu-items {
   display: inline-block;
-  width: auto; }
+  width: 100%; }
 
 .menu-item {
   display: inline-block;
   list-style: none;
-  font-size: 12px;
-  margin: 0 47px; }
+  font-size: 0.857rem;
+  margin: 0 3%; }
 
 .menu-item:hover {
   opacity: 0.5;
@@ -675,22 +683,23 @@ MENU OBJECT
   float: right;
   display: block;
   position: absolute;
-  top: 70px;
-  right: 10px;
-  height: 50px;
+  top: 116.7%;
+  right: 0.7%;
+  height: 83%;
   width: 50px;
   margin: 15px 15px 0 0;
   padding: 0;
   cursor: pointer;
   overflow: hidden;
   border-radius: 3px 3px 3px 3px;
-  background-color: #282828; }
+  background-color: #282828;
+  opacity: 0.9; }
   .hamburger-btn div {
     background-color: #fff;
     border-radius: 2px 2px 2px 2px;
-    height: 5px;
-    width: 36px;
-    left: 7px; }
+    height: 10%;
+    width: 72%;
+    left: 14%; }
 
 #layer-two {
   position: absolute;
