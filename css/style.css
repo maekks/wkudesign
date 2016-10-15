@@ -671,9 +671,6 @@ MENU OBJECT
   transform: translateY(60px);
   transition: transform 0.5s ease-in; }
 
-body.has-active-menu {
-  overflow: hidden; }
-
 .hamburger-btn {
   float: right;
   display: block;

@@ -16,7 +16,7 @@ Menu.prototype._init = function() {
   this.body = document.body;
   this.wrapper = document.querySelector('.container');
   this.menu = document.querySelector('.menu');
-  this.mask = document.querySelector('.movie-cover');
+  this.mask = document.querySelector('.container');
   this.toggleBtn = document.querySelector('.hamburger-btn');
   this._initEvents();
 };
