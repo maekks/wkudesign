@@ -19,7 +19,7 @@ MOVIE PAGE
 }
 
 .movie-cover{
-    background: url("../assets/imgs/overlay.png");
+    background: url("../imgs/overlay.png");
     position: absolute;
     top: 0;
     left: 0;
@@ -31,7 +31,7 @@ MOVIE PAGE
     position: absolute;
     top: 50%;
     left: 50%;
-    background: url("../assets/imgs/intro1.png") no-repeat;
+    background: url("../imgs/intro1.png") no-repeat;
     transform: translate(-50%, -50%);
     width: 261px;
     height: 171px;
@@ -44,6 +44,6 @@ MOVIE PAGE
     bottom: 0;
     left: 0;
     height: 90px;
-    background: url("../assets/imgs/video-blur.png") no-repeat;
+    background: url("../imgs/video-blur.png") no-repeat;
     background-size: 100% 100%;
 }
