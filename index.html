@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
         <title>WKU Design</title>
-        <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
-        <script src="js/pace.min.js"></script>
-        <link rel="stylesheet" href="css/barber-shop-pace.css">
+        <link rel="stylesheet" href="assets/css/style.css" media="screen" title="no title" charset="utf-8">
+        <meta name="description" content="The website of Wenzhou-Kean University Design Department">
+        <script src="assets/js/pace.min.js"></script>
+        <link rel="stylesheet" href="assets/css/barber-shop-pace.css">
     </head>
     <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
         <div class="wrapper">
             <nav class="menu">
                 <ul class="menu-items">
@@ -26,7 +30,10 @@
             </nav>
             <div class="container">
                 <div class="movie-page">
-                    <video src="assets/videos/movie.mp4" muted autoplay loop poster="assets/imgs/movie-alt.jpg" class="movie"></video>
+                    <video muted autoplay loop preload="auto" poster="assets/imgs/movie-alt.jpg" class="movie">
+                        <source src="assets/videos/movie.mp4" type="video/mp4">
+                        <source src="assets/videos/movie.webm" type="video/webm">
+                    </video>
                     <div class="movie-cover"></div>
                     <div class="intro-panel"></div>
                     <div class="footer-dim"></div>
@@ -197,12 +204,12 @@
         </div>
     </body>
 </html>
-<script type="text/javascript" src="js/menu.js"></script>
-<script type="text/javascript" src="js/smooth-scroll.min.js"></script>
+<script type="text/javascript" src="assets/js/menu.js"></script>
+<script type="text/javascript" src="assets/js/smooth-scroll.min.js"></script>
 <script   src="http://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
-<script type="text/javascript" src="js/jquery.scrollify.js"></script>
+<script type="text/javascript" src="assets/js/jquery.scrollify.js"></script>
 <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
-<script type="text/javascript" src="js/jquery.panelSnap.js"></script>
+<script type="text/javascript" src="assets/js/jquery.panelSnap.js"></script>
 <script>
   jQuery(function($) {
     $('#').panelSnap();
